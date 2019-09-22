@@ -23,4 +23,25 @@ header a{
 
 .logo{
   font-size: 25px;
+  display: inline-block;
+}
+
+nav{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.navlinks{
+  list-style: none;
+}
+
+.navlinks li{
+  display: inline-block;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.navlinks li a{
+  text-decoration: none;
 }
