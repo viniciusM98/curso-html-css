@@ -24,6 +24,7 @@ header a{
 .logo{
   font-size: 25px;
   display: inline-block;
+  margin: 0 10px;
 }
 
 nav{
@@ -40,6 +41,7 @@ nav{
 .navlinks li{
   display: inline-block;
   font-family: 'Roboto Mono', sans-serif;
+  margin: 0 10px;
 }
 
 .navlinks li a{
