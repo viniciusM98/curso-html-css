@@ -153,6 +153,11 @@ blockquote{
   text-transform: uppercase;
 }
 
+.item:hover{
+  background: rgb(25, 90, 205);
+  cursor:pointer;
+}
+
 .item img{
   max-width: 300px;
 }
