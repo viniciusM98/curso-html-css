@@ -112,6 +112,15 @@ blockquote{
   font-size: 46px;
 }
 
+.card:hover{
+  background: white;
+  cursor: pointer;
+}
+
+.card h3:hover{
+  color: #195acd;
+}
+
 .cronograma{
   padding: 70px 0;
 }
@@ -148,3 +157,51 @@ blockquote{
   max-width: 300px;
 }
 
+.contact{
+  background: white;
+  height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p{
+  font-size: 25px;
+  margin: 30px 0;
+}
+
+.input{
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(25, 90, 205);
+  width: 100%;
+  font-size: 20px;
+}
+
+textarea{
+  border: 2px solid rgb(25, 90, 205);
+  border-radius: 3px;
+  width: 100%;
+  font-size: 20px;
+  resize: none;
+}
+
+#submit{
+  padding: 10px 40px;
+  border: 3px solid rgb(25, 90, 205);
+  font-size: 20px;
+  text-transform: uppercase;
+  background: rgb(25, 90, 205);
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  margin: 0 auto; /*Alinhamento do botão na horizontal*/
+}
+
+#submit:hover{ /*Operação que descreve quando você passa o mouse por cima das coisas*/
+  background: white;
+  color: rgb(25, 90, 205);
+  cursor: pointer;
+}
