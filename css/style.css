@@ -8,6 +8,22 @@ html, body{
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  background:rgb(216, 234, 243);
+}
+
+h1{
+  font-size: 48px;
+  color: white;
+}
+
+h2{
+  font-size: 36px;
+  text-align: center;
+  color: rgb(25, 90, 205);
+  text-transform: uppercase;
+}
+
 header{
   height: 70px;
   background-color: rgba(255, 255, 255, 0);
@@ -62,13 +78,36 @@ nav{
   align-items: center;
 }
 
-h1{
-  font-size: 48px;
-  color: white;
-}
-
 blockquote{
   color: white;
   text-align: center;
   font-family: 'Roboto Mono', sans-serif;
+}
+
+.sobre{
+  background: rgb(216, 234, 243);
+  margin: 10px 0;
+}
+
+.container{
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.card{
+  flex: 1; /*Vários elementos espaçados um a um dentro de um display*/
+  height: 100%;
+  background: #195acd;
+  margin: 50px;
+  border-radius: 40px;
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.16);
+}
+
+.card h3{
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  color: white;
+  font-size: 46px;
 }
